@@ -33,7 +33,7 @@ export function printReport(report: GateReport): void {
     if (c.status === "regression") {
       console.log(`${DIM}  input:    ${c.input}${RESET}`);
       console.log(`${DIM}  baseline: ${c.baseline.output}${RESET}`);
-      console.log(`${DIM}  candidate:${c.candidate.output}${RESET}`);
+      console.log(`${DIM}  candidate: ${c.candidate.output}${RESET}`);
     }
   }
   console.log("-".repeat(60));

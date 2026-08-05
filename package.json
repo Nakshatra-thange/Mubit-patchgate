@@ -1,0 +1,11 @@
+{
+  "name": "patchgate-workspace",
+  "private": true,
+  "workspaces": [
+    "patch-gate"
+  ],
+  "scripts": {
+    "build": "npm run build --workspace patchgate",
+    "dev": "tsx src/cli.ts"
+  }
+}
