@@ -4,16 +4,17 @@
     "description": "A regression gate for self-modifying AI agent behavior",
     "main": "dist/index.js",
     "scripts": {
-      "build": "tsc",
-      "dev": "tsx src/cli.ts"
+        "build": "tsc",
+        "dev": "tsx src/cli.ts"
     },
     "dependencies": {
-      "js-yaml": "^4.1.0"
+        "dotenv": "^17.4.2",
+        "js-yaml": "^4.1.0"
     },
     "devDependencies": {
-      "@types/js-yaml": "^4.0.9",
-      "@types/node": "^20.11.0",
-      "tsx": "^4.7.0",
-      "typescript": "^5.4.0"
+        "@types/js-yaml": "^4.0.9",
+        "@types/node": "^20.11.0",
+        "tsx": "^4.7.0",
+        "typescript": "^5.4.0"
     }
-  }
+}
