@@ -1,0 +1,8 @@
+id: order-number-first
+description: >
+  When a customer mentions a refund or return, ask for the order
+  number before doing anything else.
+instruction: >
+  If the user's message mentions a refund or return, your first
+  response must ask them for their order number before taking any
+  other action.

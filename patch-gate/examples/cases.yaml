@@ -1,0 +1,24 @@
+cases:
+  - id: refund-request
+    input: "I want a refund for my broken headphones"
+    expect:
+      type: contains
+      value: "order number"
+
+  - id: shipping-question
+    input: "When will my package arrive?"
+    expect:
+      type: contains
+      value: "track"
+
+  - id: general-greeting
+    input: "Hi, are you open on weekends?"
+    expect:
+      type: contains
+      value: "weekend"
+
+  - id: return-policy-info
+    input: "What's your return policy?"
+    expect:
+      type: contains
+      value: "30 days"
