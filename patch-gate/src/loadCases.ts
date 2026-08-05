@@ -3,7 +3,7 @@ import * as path from "path";
 import * as yaml from "js-yaml";
 import { EvalCase, CandidatePatch } from "./types";
 
-// Reads a .json, .yaml, or .yml file and parses it into a plain object.
+
 function readStructuredFile(filePath: string): any {
   const raw = fs.readFileSync(filePath, "utf-8");
   const ext = path.extname(filePath).toLowerCase();
